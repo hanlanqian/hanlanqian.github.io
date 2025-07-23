@@ -2,6 +2,7 @@
 layout: post
 author: "hanlanqian"
 subtitle: "我的计算机考研之路：心得与备考经验分享"
+published: false
 tags:
   - GEE 
   - insights

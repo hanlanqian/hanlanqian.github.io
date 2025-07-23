@@ -4,6 +4,7 @@ description: "ã€ŒThe grass is always greener on the other side of the fence...ã€
 ---
 
 {% for post in paginator.posts %}
+{% if post.published != false %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
@@ -27,6 +28,7 @@ description: "ã€ŒThe grass is always greener on the other side of the fence...ã€
     </p>
 </div>
 <hr>
+{% endif %}
 {% endfor %}
 
 <!-- Pager -->
